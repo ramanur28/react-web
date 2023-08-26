@@ -1,7 +1,15 @@
+import Jumbotron from "../components/Jumbotron.jsx";
+import About from "../components/About.jsx";
+import Contact from "../components/contacts.jsx";
+import Footer from "../components/Footer.jsx";
+
 function Home() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Jumbotron />
+      <About />
+      <Contact />
+      <Footer />
     </>
   );
 }

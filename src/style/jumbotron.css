@@ -1,0 +1,38 @@
+.jumbotron {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron .title {
+  margin: 40px 0;
+}
+
+.lead {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .jumbotron {
+    display: block;
+    text-align: left;
+    padding: 45px;
+    height: 80vh;
+  }
+
+  .jumbotron .title {
+    margin: 160px 0 5px 0;
+    width: 60vw;
+    text-align: left;
+  }
+
+  .lead {
+    display: block;
+    width: 60vw;
+    margin-bottom: 25px;
+  }
+}

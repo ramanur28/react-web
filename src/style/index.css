@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --black: #040d12;
+  --white: #f8f9fa;
+  --black-green: #183d3d;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}

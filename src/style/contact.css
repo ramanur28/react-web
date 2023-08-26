@@ -1,0 +1,22 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 8px;
+}
+
+.contact-icon {
+  font-size: 32pt;
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.contact-icon:hover {
+  color: var(--black-green);
+}
+
+@media only screen and (min-width: 576px) {
+  .contacts {
+    justify-content: space-around;
+  }
+}

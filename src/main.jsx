@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./style/index.css";
+
+// components
 import Home from "./pages/Home.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
+    <Navbar />
+    <Home />
   </React.StrictMode>
 );

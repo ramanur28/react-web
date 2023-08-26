@@ -1,0 +1,35 @@
+.about {
+  background-color: var(--white);
+}
+
+.about .title {
+  color: var(--black);
+}
+
+.text {
+  padding: 10px;
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.text p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 576px) {
+  .about .title {
+    margin-bottom: 15px;
+  }
+
+  .about .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .content .text {
+    width: 45vw;
+    height: 35vh;
+  }
+}
